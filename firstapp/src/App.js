@@ -1,3 +1,5 @@
+import { BookingPage } from "./BookingPage"
+
 function Header() {
   return <h1>WEAREONE</h1>
 }
@@ -23,10 +25,7 @@ function Footer() {
 
 function App() {
   return <>
-    <Header />
-    <Nav />
-    <Main />
-    <Footer />
+    <BookingPage />
   </>
 }
 export default App;
