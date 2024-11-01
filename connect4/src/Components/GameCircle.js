@@ -10,7 +10,7 @@ const GameCircle = ({ id, className, onCircledClick }) => {
   }
 
   return (
-    <div className={`gameCircle player_0 ${className}`} onClick={() => onClick(id)}>{id}</div>
+    <div className={`gameCircle player_0 ${className}`} onClick={() => onClick(id)}></div>
   )
 }
 
